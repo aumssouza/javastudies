@@ -1,2 +1,4 @@
-bin/tests/TestesAvulsos
-bin/tests/PasswordLoginTest
+bin/tests/TestesAvulsos.class
+bin/tests/PasswordLoginTest.class
+src/tests/TestesAvulsos.java
+src/tests/PasswordLoginTest.java
