@@ -1,4 +1,9 @@
 package classes;
+/*
+ * Teller class
+ * Used to diferentiate a second type of Employee that has less functions than the Manager
+ * Will interact with Clients and Accounts in the future
+ */
 
 public class Teller extends Employee implements Authenticatable{
 	

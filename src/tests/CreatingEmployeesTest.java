@@ -53,7 +53,7 @@ public class CreatingEmployeesTest {
 		System.out.println("Carlos' current salary: R$"+pointer.getSalary());
 		kleber.raise(pointer, 4);
 		System.out.println("Carlos' salary after 4% raise: R$"+pointer.getSalary());
-		System.out.print("Now raise Carlos' salary yourself by an integer amount of your choice");
+		System.out.print("Now raise Carlos' salary yourself by an percent(integer) amount of your choice: ");
 		
 		int raise=in.nextInt();
 		if(kleber.raise(carlos, raise)) {
@@ -63,12 +63,12 @@ public class CreatingEmployeesTest {
 		System.out.println("-----");
 		System.out.println("Due to Kleber doing an extra raise, he was fired");
 		kleber.fire(kleber);
-		System.out.println(kleber.getSalary());
+		
 		System.out.println("And now he can't log back into the system.");
 		System.out.println("You can try, to log back, remember that his password is still batata");
 		
 		while(logged==true) {
-			System.out.println(logged);
+			
 			System.out.print("Your input: ");
 			input=in.next();
 			if(input.equals("batata")) {

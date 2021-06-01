@@ -1,5 +1,9 @@
 package classes;
-
+/*
+ * Manager class
+ * Employee that can interact with other Employees by changing their salaries and 
+ * disabling login operations
+ */
 public class Manager extends Employee implements Authenticatable {
 	private String passw;
 	

@@ -1,5 +1,10 @@
 package classes;
-
+/*
+ * Employee class
+ * Holds all the generic information any employee would have in the system
+ * Salary only has a raise method so far, but it can be used to reduce an employee's money
+ * if the raise value in raiseSalary is negative
+ */
 public abstract class Employee{
 	String name;
 	String cpf;
