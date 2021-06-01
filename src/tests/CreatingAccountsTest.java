@@ -72,5 +72,7 @@ public class CreatingAccountsTest {
 		System.out.println("\nKleber");
 		System.out.println("  Checkings:\n   • Balance: R$"+ kleberC.getBalance()+
 											"\n   • Earnings: R$"+ kleberC.earnings());
+		
+		System.out.println("\n\n\nThere were " + kleberC.getRegisteredAccounts() +" accounts registered in total"); //account was chosen randomly for this check
 	}
 }
