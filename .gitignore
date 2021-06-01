@@ -1,4 +1,3 @@
-bin/tests/TestesAvulsos.class
-bin/tests/PasswordLoginTest.class
-src/tests/TestesAvulsos.java
-src/tests/PasswordLoginTest.java
+#wip test folders
+bin/tests/wip/
+src/tests/wip/
